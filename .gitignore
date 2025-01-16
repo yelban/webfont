@@ -24,9 +24,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
 # local env files
 .env*.local
+.env
+#.env.example
 
 # vercel
 .vercel
@@ -34,3 +37,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+credentials.json
+
+# asdf
+.tool-versions
+
+# pycache
+**/__pycache__/
+
+# python virtual environment
+/venv/
+
+# pytest
+.pytest_cache/
+
+# vscode
+.vscode/
